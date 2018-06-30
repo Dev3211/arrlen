@@ -37,8 +37,8 @@ function arrlen1($array) //for loop
         echo "Total number of elements in your array are: $count" . "\n\n"; //just an echo to see the number of elements your current array has
         $implode = implode(' ', $array1); //convert all the elements of your array to a string using implode
         echo "Total string length of $count elements are: " . trim(strlen($implode)) . "\n\n"; //find the total string length of all your elements, for more accuracy you can use trim as well so that strlen does not count in white spaces
-        for ($i = 0, $l = count($array); $i < $l; ++$i) {
-            echo "The string length of element $array[$i] is: " . trim(strlen($array[$i])) . "\n\n";
+        for ($i = 0, $l = count($array1); $i < $l; ++$i) {
+            echo "The string length of element $array1[$i] is: " . trim(strlen($array[$i])) . "\n\n";
         }
     }
 } //you can remove all those un-needed stuff, I just added it to make it look more interesting.
