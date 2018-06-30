@@ -1,6 +1,6 @@
 # arrlen
 
-There was a function called strlen which was used to find out the length of a string and it did not really arrays. Since there was no function at PHP which actually counts the string length of every element in an array, I decided to make a function which actually does that. I will also introduce it in other programming languages, for now it's PHP.
+There was a function called strlen which was used to find out the length of a string and it did not really support arrays. Since there was no function at PHP which actually counts the string length of every element in an array, I decided to make a function which actually does that. I will also introduce it in other programming languages, for now it's PHP.
 
 It uses two functions with only a minimal difference of loops meaning one function uses foreach and another one uses for loop. Here are the results of the time taken between two loops:
 
